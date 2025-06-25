@@ -1,6 +1,6 @@
 # Google Cloud Platform Setup
 
-While you can run Ava locally, this course also provides the option to deploy the LangGraph application to the cloud.
+While you can run Aisha locally, this course also provides the option to deploy the LangGraph application to the cloud.
 Specifically, we’ll be using Google Cloud Run, a GCP service designed for deploying containerized applications.
 
 If you're new to [GCP](https://cloud.google.com/), you'll need to create an account, which comes with a generous amount of starting credits.
@@ -42,8 +42,8 @@ Location is the region where you want your project to be deployed. In my case, I
 5. Create the Docker repository:
 
 ```bash
-gcloud artifacts repositories create ava-app --repository-format=docker \
-    --location=<LOCATION> --description="Docker repository for Ava, the WhatsApp Agent" \
+gcloud artifacts repositories create aisha-app --repository-format=docker \
+    --location=<LOCATION> --description="Docker repository for Aisha, the WhatsApp Agent" \
     --project=<PROJECT_ID>
 ```
 
