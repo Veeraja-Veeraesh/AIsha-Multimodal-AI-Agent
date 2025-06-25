@@ -74,7 +74,7 @@ To create the ELEVENLABS_API_KEY you need to create an account in [ElevenLabs](h
 
 ![alt text](img/elevenlabs_api_key.png)
 
-As for the voice ID, you can check the available voices and select the one you prefer! We'll cover this in a dedicated lesson.
+As for the voice ID, you can check the aishailable voices and select the one you prefer! We'll cover this in a dedicated lesson.
 
 ### Together AI
 
@@ -104,10 +104,10 @@ Copy both values and paste them into your own `.env` file.
 
 Once you have everything set up, it's time to run the project locally. This is the best way to check that everything is working before starting the course.
 
-To run the project locally, we have created a [Makefile](../Makefile). Use the command `ava-run` to start the project.
+To run the project locally, we have created a [Makefile](../Makefile). Use the command `aisha-run` to start the project.
 
 ```bash
-make ava-run
+make aisha-run
 ```
 
 This command will start a Docker Compose application with three services:
@@ -117,12 +117,6 @@ This command will start a Docker Compose application with three services:
 * A FastAPI application (http://localhost:8080/docs)
 
 The FastAPI application is necessary for the WhatsApp integration, but that's something we will cover in Lesson 6. So, for now,
-you can ignore it. Simply click the link to the Chainlit interface to start interacting with Ava.
+you can ignore it. Simply click the link to the Chainlit interface to start interacting with Aisha.
 
-You should see something like this:
-
-![Ava Chainlit](img/ava_chainlit.png)
-
-Now that we have verified that everything is working, it's time to move on to the [Course Syllabus](../README.md) and start the first lesson!
-
-> If you want to clean up the docker compose application and all the related local folders, you can run `make ava-delete`. For more info, check the [Makefile](../Makefile).
+> If you want to clean up the docker compose application and all the related local folders, you can run `make aisha-delete`. For more info, check the [Makefile](../Makefile).
