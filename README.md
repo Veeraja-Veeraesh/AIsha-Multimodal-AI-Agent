@@ -1,6 +1,6 @@
 <p align="center">
         <img alt="logo" src="img/ava_final_design.gif" width=1000 />
-        Credits to <strong>Miguel Otero Pedrido | Senior ML / AI Engineer (<a href="https://www.linkedin.com/in/migueloteropedrido/">LinkedIn</a>) </strong> and <strong>Jesús Copado | Senior ML / AI Engineer </strong> (<a href="https://www.linkedin.com/in/copadojesus/">LinkedIn</a>) for designing this picture
+        Credits to <strong>Miguel Otero Pedrido | Senior ML / AI Engineer (<a href="https://www.linkedin.com/in/migueloteropedrido/">LinkedIn</a>) </strong> and <strong>Jesús Copado | Senior ML / AI Engineer </strong> (<a href="https://www.linkedin.com/in/copadojesus/">LinkedIn</a>)
     <h1 align="center">📱 AIsha 📱</h1>
     <h3 align="center">A Multimodal AI Agent</h3>
 </p>
